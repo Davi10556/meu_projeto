@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "meu-projeto"
+name = "pyG12"
 version = "0.1.0"
 description = "Meu projeto incrível"
 readme = "README.md"
