@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meu-projeto"
+version = "0.1.0"
+description = "Meu projeto incrível"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{ name="Davi", email="seuemail@example.com" }]
+license = { text="MIT" }
