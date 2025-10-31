@@ -1,12 +1,10 @@
-[build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
-
 [project]
 name = "pyG12"
-version = "0.1.0"
-description = "Meu projeto incrível"
+version = "0.1.1"
+description = "Pacote exemplo que mostra uma janelinha"
+authors = [{ name = "Davi10556" }]
 readme = "README.md"
 requires-python = ">=3.8"
-authors = [{ name="Davi", email="seuemail@example.com" }]
-license = { text="MIT" }
+
+[project.scripts]
+pyG12 = "pyG12.main:main"
